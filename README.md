@@ -12,6 +12,6 @@ ENV 분기
   - https://velog.io/@heumheum2/React-Native-Multiple-Environments
 
   [create from root]
-  .env.development
-  .env.production
+  - .env.development
+  - .env.production
 
