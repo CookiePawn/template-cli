@@ -11,5 +11,7 @@ ENV 분기
   - https://velog.io/@2ast/React-Native-개발용-Dev-앱-분리하기-ios
   - https://velog.io/@heumheum2/React-Native-Multiple-Environments
 
-
+  [create from root]
+  .env.development
+  .env.production
 
