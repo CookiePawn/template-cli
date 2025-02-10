@@ -23,3 +23,11 @@
 > 
 > .env.production
 
+
+## 프로젝트 SETTING
+```
+yarn
+```
+```
+cd ios && pod install
+```
