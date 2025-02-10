@@ -1,7 +1,9 @@
 # template-cli
 
 ## React Native Cli 탬플릿
-> 프로젝트명 변경 불가능
+> 프로젝트명 변경 가능
+>
+> https://development-piece.tistory.com/462?category=1222088
 
 
 
