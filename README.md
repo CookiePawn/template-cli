@@ -25,9 +25,9 @@
 
 
 ## 프로젝트 SETTING
-```
+```bash
 yarn
 ```
-```
+```bash
 cd ios && pod install
 ```
