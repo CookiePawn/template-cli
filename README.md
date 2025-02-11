@@ -55,3 +55,13 @@ yarn run ios:prod # PRODUCTION MODE
 yarn run ios:dev:release # DEVELOPMENT RELEASE MODE
 yarn run ios:prod:release # PRODUCTION RELEASE MODE
 ```
+
+
+## Gradle Clean
+
+```bash
+cd android                                                                     
+./gradlew clean
+cd ..
+yarn run ${scripts}
+```
