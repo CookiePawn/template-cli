@@ -6,6 +6,10 @@
 > https://development-piece.tistory.com/462?category=1222088
 
 
+## Project Start
+```bash
+npx @react-native-community/cli templatecli --version 0.77.0
+```
 
 
 ## ENV 분기
