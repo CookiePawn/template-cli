@@ -12,6 +12,10 @@ npx @react-native-community/cli templatecli --version 0.77.0
 ```
 
 
+## React-Native-Config
+> android/app/ .... 폴더명 패키지명과 동일하게 수정
+
+
 ## ENV 분기
 
 [android]
