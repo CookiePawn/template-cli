@@ -1,4 +1,5 @@
-const {getDefaultConfig, mergeConfig} = require('@react-native/metro-config');
+const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config');
+const { wrapWithReanimatedMetroConfig } = require('react-native-reanimated/metro-config');
 
 /**
  * Metro configuration
@@ -6,6 +7,15 @@ const {getDefaultConfig, mergeConfig} = require('@react-native/metro-config');
  *
  * @type {import('@react-native/metro-config').MetroConfig}
  */
-const config = {};
+const config = mergeConfig(getDefaultConfig(__dirname), {
+  transformer: {
+    babelTransformerPath: require.resolve('react-native-svg-transformer'),
+  },
+  resolver: {
+    assetExts: ['png', 'jpg', 'jpeg', 'gif', 'json'],
+    sourceExts: ['js', 'jsx', 'ts', 'tsx', 'svg'],
+  },
+});
 
-module.exports = mergeConfig(getDefaultConfig(__dirname), config);
+// Reanimated 관련 설정을 적용
+module.exports = wrapWithReanimatedMetroConfig(config);

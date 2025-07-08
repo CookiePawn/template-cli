@@ -16,15 +16,19 @@
     "ios:dev:release": "react-native run-ios --scheme DEV --mode DevelopmentRelease --port=8083",
     "ios:prod": "react-native run-ios --scheme PROD --mode ProductionDebug --port=8083",
     "ios:prod:release": "react-native run-ios --scheme PROD --mode ProductionRelease --port=8083",
-
     "lint": "eslint .",
     "test": "jest"
   },
   "dependencies": {
+    "babel-plugin-module-resolver": "^5.0.2",
     "react": "18.3.1",
     "react-native": "0.77.0",
     "react-native-config": "^1.5.5",
-    "react-native-dotenv": "^3.4.11"
+    "react-native-gesture-handler": "^2.27.1",
+    "react-native-reanimated": "^3.18.0",
+    "react-native-safe-area-context": "^5.5.1",
+    "react-native-svg": "^15.12.0",
+    "react-native-svg-transformer": "^1.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
