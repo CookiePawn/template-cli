@@ -16,6 +16,19 @@ npx @react-native-community/cli templatecli --version 0.77.0
 > android/app/ .... 폴더명 패키지명과 동일하게 수정
 
 
+## 적용 사항
+> [스택, 탭 네비게이터]
+> [알림창]
+> [Jotai]
+> [React Query]
+> [React Config]
+> [Custom Text - 폰트 적용 필요]
+> [Android API 35 대응]
+
+
+
+
+
 ## ENV 분기
 
 [android]
