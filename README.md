@@ -4,6 +4,7 @@
 > 프로젝트명 변경 가능
 >
 > ios bundleDisplayName 참조하도록 수정
+> 
 > ios AppDelegate.swift의 moduleName 변경
 ```bash
 npm install -g react-native-rename
