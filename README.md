@@ -3,7 +3,9 @@
 ## React Native Cli 탬플릿
 > 프로젝트명 변경 가능
 >
-> https://development-piece.tistory.com/462?category=1222088
+> npm install -g react-native-rename
+>
+> react-native-rename [변경할 이름]
 
 
 ## Project Start
