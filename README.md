@@ -15,7 +15,7 @@ react-native-rename [변경할 이름]
 
 ## Project Start
 ```bash
-npx @react-native-community/cli templatecli --version 0.77.0
+npx @react-native-community/cli templatecli --version 0.81.0
 ```
 
 

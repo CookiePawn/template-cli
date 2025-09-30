@@ -1,7 +1,7 @@
 import { BackHandler, ToastAndroid } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import React, { useRef } from 'react';
-import RNExitApp from 'react-native-exit-app';
+import { exitApp } from '@logicwind/react-native-exit-app';
 
 export const useExit = () => {
     const backPressedTime = useRef(0);
@@ -13,7 +13,7 @@ export const useExit = () => {
                 const timeDiff = currentTime - backPressedTime.current;
 
                 if (timeDiff < 2000) { // 2초 이내에 두 번 누른 경우
-                    RNExitApp.exitApp();
+                    exitApp();
                     return true;
                 }
 
