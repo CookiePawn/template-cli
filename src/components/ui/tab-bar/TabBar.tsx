@@ -33,7 +33,7 @@ const TabBar = ({ state, descriptors, navigation }: BottomTabBarProps) => {
                         style={styles.tabButton}
                     >
                         
-                        <Typography style={{ color: isFocused ? colors.primary : colors.gray100, fontSize: 12 }}>
+                        <Typography style={{ color: isFocused ? colors.brand700 : colors.neutral500, fontSize: 12 }}>
                             {typeof label === 'string' ? label : ''}
                         </Typography>
                     </TouchableOpacity>
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
         height: 60,
         backgroundColor: colors.white,
         borderTopWidth: 1,
-        borderTopColor: colors.gray200,
+        borderTopColor: colors.neutral200,
     },
     tabButton: {
         flex: 1,

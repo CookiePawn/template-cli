@@ -49,13 +49,13 @@ const Alert: React.FC = () => {
               {typeof state?.message === 'string' && <Typography style={[styles.message, !!state.title && { marginTop: 12 }]}>{state.message}</Typography>}
               <View style={styles.buttonContainer}>
                 <TouchableOpacity onPress={onOK} activeOpacity={0.8} style={styles.buttonInnerContainer}>
-                  <TouchableOpacity style={[styles.button, { backgroundColor: colors.black }]} disabled={true}>
+                  <TouchableOpacity style={[styles.button, { backgroundColor: colors.neutral800 }]} disabled={true}>
                     <Typography style={{ color: colors.white }}>{state?.altOK || '확인'}</Typography>
                   </TouchableOpacity>
                 </TouchableOpacity>
                 {!!state?.onCancel && (
                   <TouchableOpacity onPress={onCancel} activeOpacity={0.8} style={styles.buttonInnerContainer}>
-                    <TouchableOpacity style={[styles.button, { backgroundColor: colors.gray200 }]} disabled={true}>
+                    <TouchableOpacity style={[styles.button, { backgroundColor: colors.neutral200 }]} disabled={true}>
                       <Typography style={{ color: colors.white }}>{state?.altCancel || '취소'}</Typography>
                     </TouchableOpacity>
                   </TouchableOpacity>
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 0,
     left: 0,
-    backgroundColor: colors.black,
+    backgroundColor: colors.neutral800,
     opacity: 0.5,
   },
   contentContainer: {

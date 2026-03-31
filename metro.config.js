@@ -12,7 +12,7 @@ const config = mergeConfig(getDefaultConfig(__dirname), {
     babelTransformerPath: require.resolve('react-native-svg-transformer'),
   },
   resolver: {
-    assetExts: ['png', 'jpg', 'jpeg', 'gif', 'json'],
+    assetExts: ['png', 'jpg', 'jpeg', 'gif', 'json', 'lottie'],
     sourceExts: ['js', 'jsx', 'ts', 'tsx', 'svg'],
   },
 });
