@@ -31,6 +31,8 @@ npx @react-native-community/cli templatecli --version 0.81.0
 > [React Config]
 > [Custom Text - 폰트 적용 필요]
 > [Android API 35 대응]
+> [커스텀 버튼]
+> [Colors]
 
 
 
