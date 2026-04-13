@@ -32,7 +32,11 @@
 		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>해당 서비스의 위치 기능을 사용하기 위해 위치 권한이 필요합니다.</string>
+	<key>NSUserNotificationUsageDescription</key>
+	<string>해당 서비스에서 제공되는 알림 기능을 사용하기 위해 알림 권한이 필요합니다.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>해당 서비스의 광고 추적 기능을 사용하기 위해 권한이 필요합니다.</string>
 	<key>RCTNewArchEnabled</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

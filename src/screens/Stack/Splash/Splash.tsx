@@ -2,11 +2,13 @@ import { View } from 'react-native';
 import { Typography } from '@/components';
 import { useNavigation } from '@/navigations';
 import { useEffect } from 'react';
+import { requestPermission } from '@/utils';
 
 const Splash = () => {
   const navigation = useNavigation();
 
   useEffect(() => {
+    requestPermission('APP_TRACKING_TRANSPARENCY');
     setTimeout(() => {
       navigation.navigate('MainTab', { screen: 'Home' });
     }, 1000);
