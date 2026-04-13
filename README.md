@@ -34,6 +34,8 @@ npx @react-native-community/cli templatecli --version 0.81.0
 > [커스텀 버튼]
 > [Colors]
 > [Animation 모듈]
+> [Permission]
+> [Header]
 
 
 
