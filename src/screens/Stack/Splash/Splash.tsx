@@ -10,7 +10,10 @@ const Splash = () => {
   useEffect(() => {
     requestPermission('APP_TRACKING_TRANSPARENCY');
     setTimeout(() => {
-      navigation.navigate('MainTab', { screen: 'Home' });
+      navigation.reset({
+        index: 0,
+        routes: [{ name: 'MainTab', params: { screen: 'Home' } }],
+      });
     }, 1000);
   }, []);
 
