@@ -95,7 +95,6 @@ android {
         versionName "0.0.1"
 
         /* env - DEV 모드일 경우 Config가 적용 되지 않는 문제는 아래 추가로 패키지 명시 해줘야 해결 됨 */
-        // setProperty("archivesBaseName", "TemplateCli-v${versionName}-c${versionCode}")
         resValue "string", "build_config_package", "com.templatecli"
     }
     signingConfigs {
@@ -128,6 +127,10 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
+}
+
+base {
+    archivesName = "TemplateCli-v${android.defaultConfig.versionName}-c${android.defaultConfig.versionCode}"
 }
 
 dependencies {
